@@ -1,4 +1,3 @@
-# JS-QuickSearch
 Here's an example description of how to run your application that you can include in a text document (eg. `README.md`):
 
 ---
