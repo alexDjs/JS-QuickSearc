@@ -1,0 +1,87 @@
+/* The main style of the Dracula theme */
+body {
+  background-color: #282a36; /* Dark background */
+  color: #f8f8f2; /* Light text */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start; /* Align the elements on top */
+  align-items: center; /* Centering horizontally */
+  height: 100vh;
+  flex-direction: column; /* The arrangement of the elements in a column */
+  padding-top: 40px; /*Adding an indentation at the top */
+}
+
+/* The search container */
+.search-container {
+  width: 100%;
+  max-width: 480px;
+  position: relative; /*To position the tooltips */
+  z-index: 2; /* Over the background */
+}
+
+/* The input field */
+#search-input {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #44475a; /* Dark Grey */
+  color: #f8f8f2; /* Light text */
+  outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* List of hints*/
+#suggestions {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  background-color: #44475a; /* Dark Grey */
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  top: 40px; /*Distance from the input fieldа */
+}
+
+#suggestions li {
+  padding: 10px 15px;
+  border-bottom: 1px solid #6272a4; /*Accent color */
+  color: #f8f8f2; /* Light text */
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#suggestions li:hover {
+  background-color: #6272a4; /* Accent color on hover */
+}
+
+#suggestions li:last-child {
+  border-bottom: none;
+}
+
+.example-box {
+  position: absolute; /* Absolute positioning */
+  top: 50%; /* Vertical centering */
+  left: 50%; /* Horizontal centering */
+  transform: translate(-50%, -50%); /* Offset for precise centering */
+  width: 80%; /* Block width */
+  max-width: 600px; /* Maximum width */
+  padding: 20px; /* Internal margins */
+  background-color: #353749; /*Opaque background */
+  color: #5fffea; /* Text color */
+  border-radius: 10px; /* Rounded corners */
+  z-index: 1; /* Under the search bar */
+  pointer-events: none; /* Does not interact with the mouse or keyboard */
+  text-align: center; /* Text in the center */
+  box-shadow: 0 8px 15px rgba(228, 233, 236, 0.993); /* Shadow around the block*/
+  display: none; /* Hidden by default */
+}
+
+

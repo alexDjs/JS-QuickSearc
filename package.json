@@ -1,0 +1,16 @@
+{
+  "name": "js-quicksearch",
+  "version": "1.0.0",
+  "description": "A web app for quickly searching JavaScript methods and functions with real-time suggestions and examples.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexDjs/JS-QuickSearch.git"
+  },
+  "main": "index.html",
+  "scripts": {
+    "open": "http-server . && open git clone https://github.com/alexDjs/JS-QuickSearch/index.html "
+  },
+  "keywords": ["javascript", "search", "web app"],
+  "author": "Oleksandr Shchehlov",
+  "license": "MIT"
+}
