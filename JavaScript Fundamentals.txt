@@ -1,0 +1,20 @@
+1. What is JavaScript?  
+2. Operators  
+3. Variables and Types  
+4. Callback Functions  
+5. Object Mutation
+6. Ternary Operator  
+7. Logical Operators  
+8. String Concatenation  
+9. Destructuring  
+10. Conditional Statements  
+11. Promises  
+12. Classes and Prototypes  
+13. Asynchronous Functions  
+14. JavaScript Functions  
+15. Loops in JavaScript  
+16. Arrays in JavaScript  
+17. Objects in JavaScript  
+18. Working with the DOM  
+19. Promise in JavaScript  
+20. Async/Await in JavaScript  
