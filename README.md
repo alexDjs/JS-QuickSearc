@@ -1,7 +1,5 @@
 Here's an example description of how to run your application that you can include in a text document (eg. `README.md`):
 
----
-
 ## JS QuickSearch
 
 **JS QuickSearch** is a web application for quickly searching and getting reference information about JavaScript methods and functions.
@@ -38,9 +36,6 @@ Follow these steps to get the application up and running:
 ---
 
 This section provides clear, step-by-step instructions on how to run the application locally and is suitable for a typical `README.md` file.
-
-
-Here is the description in English with added emojis for a presentation:
 
 Application Description:
 This web application provides users with an easy way to search for JavaScript information and view code examples. 🤖 The user types a query into the search field, and the app dynamically displays suggestions matching the query. 📜 When clicking on a suggestion, a detailed description of the JavaScript concept or function is shown, along with a code example to help understand how the element works. 💻
